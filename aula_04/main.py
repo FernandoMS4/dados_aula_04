@@ -15,7 +15,7 @@
 #         pass
 #     return json
 
-# filtro = o_json(filtro_resultado)
+# filtro = ordena_remove_vazio_json(filtro_resultado)
 # print(filtro)
 
 ## EXERCICIOS
@@ -85,7 +85,28 @@
 #7: 7. Filtragem de Dados 
 #Objetivo: Dada uma lista de idades, filtrar apenas aquelas que são maiores ou iguais a 18.
 
-idades = ['18','17','19','32','15']
-for i in range(len(idades)):
-    if int(idades[i]) >= 18:
-        print(idades[i])
+# idades = ['18','17','19','32','15']
+# for i in range(len(idades)):
+#     if int(idades[i]) >= 18:
+#         print(idades[i])
+
+#8: 8. Ordenação Personalizada
+#Objetivo: Dada uma lista de dicionários representando pessoas, ordená-las pelo nome.
+
+# pessoas = [{"nome":"Oernando","idade":"32"},{"nome":"Maria","idade":"36"}]
+# pessoas.sort(key=lambda pessoas: pessoas["nome"])
+# print(pessoas)
+
+#9: Agregação de Dados
+#Objetivo: Dado um conjunto de números, calcular a média.
+
+# obj = [1,2,9,20]
+# avger = sum(obj) /len(obj)
+# print(avger)
+
+# 10. Divisão de Dados em Grupos
+# Objetivo: Dada uma lista de valores, dividir em duas listas: uma para valores pares e outra para ímpares.
+
+# v = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+# print([v for v in v if v %2 == 0])
+# print([v for v in v if v %2 != 0])
