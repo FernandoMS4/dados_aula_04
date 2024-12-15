@@ -150,11 +150,11 @@
 # 15. Contagem de Frequência de Itens
 # Objetivo: Dada uma string, contar a frequência de cada caractere usando um dicionário.
 
-txt = "Fernando e muito lindo meu deus"
-dc = {}
-for i in txt:
-    if i in dc:
-        dc[i] += 1
-    else:
-        dc[i]=1
-print(dc)
+# txt = "Fernando e muito lindo meu deus"
+# dc = {}
+# for i in txt:
+#     if i in dc:
+#         dc[i] += 1
+#     else:
+#         dc[i]=1
+# print(dc)
