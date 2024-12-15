@@ -110,3 +110,51 @@
 # v = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 # print([v for v in v if v %2 == 0])
 # print([v for v in v if v %2 != 0])
+
+# 11. Atualização de Dados
+# Objetivo: Dada uma lista de dicionários representando produtos, atualizar o preço de um produto específico.
+
+# produtos = [
+#     {"id": 1, "nome": "Teclado", "preço": 100},
+#     {"id": 2, "nome": "Mouse", "preço": 80},
+#     {"id": 3, "nome": "Monitor", "preço": 300}
+# ]
+
+# for i in produtos:
+#     if i["id"] == 2:
+#         i["preço"]= 120
+#         print(produtos)
+
+# 12. Fusão de Dicionários
+# Objetivo: Dados dois dicionários, fundi-los em um único dicionário.
+
+# d1 = {"n":1}
+# d2 = {"n2":2}
+# d1.update(d2)
+# print(d1)
+
+# 13. Filtragem de Dados em Dicionário
+# Objetivo: Dado um dicionário de estoque de produtos, filtrar aqueles com quantidade maior que 0.
+
+# estoque = {"Teclado": 10, "Mouse": 0, "Monitor": 3, "CPU": 0}
+# p = {v for v in estoque if estoque[v] >0}
+# print(p)
+
+# 14. Extração de Chaves e Valores
+# Objetivo: Dado um dicionário, criar listas separadas para suas chaves e valores.
+
+# estoque = {"Teclado": 10, "Mouse": 0, "Monitor": 3, "CPU": 0}
+# print(f"{estoque.keys()}, {estoque.values()}")
+
+
+# 15. Contagem de Frequência de Itens
+# Objetivo: Dada uma string, contar a frequência de cada caractere usando um dicionário.
+
+txt = "Fernando e muito lindo meu deus"
+dc = {}
+for i in txt:
+    if i in dc:
+        dc[i] += 1
+    else:
+        dc[i]=1
+print(dc)
